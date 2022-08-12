@@ -1,4 +1,4 @@
-const { typeNames } = require('./lib')
+import { typeNames } from 'cz-emoji/lib/types.json';
 
 module.exports = {
   extends: ['@commitlint/config-conventional', 'gitmoji'],
@@ -13,7 +13,7 @@ module.exports = {
   parserPreset: {
     parserOpts: {
       headerPattern: /^(:\w*:)(?:\s)(?:\((.*?)\))?\s((?:.*(?=\())|.*)(?:\(#(\d*)\))?/,
-      headerCorrespondence: ['type', 'scope', 'subject', 'ticket']
-    }
-  }
-}
+      headerCorrespondence: ['type', 'scope', 'subject', 'ticket'],
+    },
+  },
+};
