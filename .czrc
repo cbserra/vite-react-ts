@@ -1,0 +1,10 @@
+{
+  "path": "./node_modules/commitizen-emoji",
+  "config": {
+    "commitizenEmoji": {},
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    },
+    "cz-emoji": {}
+  }
+}
